@@ -24,3 +24,6 @@
 - Visitor
 - Strategy
 - Chain of responsibility
+
+# References
+See [this post](https://www.geeksforgeeks.org/python-design-patterns/) for more information.
