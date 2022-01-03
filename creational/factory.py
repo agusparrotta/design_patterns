@@ -20,7 +20,7 @@ class Cat:
 
 def get_pet(pet: str = 'dog') -> object:
     """The factory method."""
-    pets = dict(dog=Dog("Hope"), cat=Cat("Negro"))
+    pets = dict({'dog': Dog("Hope"), 'cat': Cat("Negro")})
     return pets[pet]
 
 def main() -> None:

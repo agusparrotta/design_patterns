@@ -35,7 +35,7 @@ class Builder:
         self.car = Car()
 
 class SkyLarkBuilder(Builder):
-    """Concrete Builder --> provides parts and tools to work on the parts."""
+    """Concrete Builder. Provides parts and tools to work on the parts."""
     def add_model(self) -> None:
         self.car.model = "SkyLark"
 
