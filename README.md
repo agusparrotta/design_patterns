@@ -51,7 +51,9 @@ Are about organizing different classes and objects to form larger structures and
 - Bridge
 - Composite
 - Decorator
+- Facade
 - Proxy
+- FlyWeight
 
 ### 2.1. Adapter
 Help us in making the incompatible objects adaptable to each other. This method provides a different interface for a class. Using this idea, we can integrate the classes that couldn’t be integrated due to interface incompatibility.
@@ -59,14 +61,38 @@ Help us in making the incompatible objects adaptable to each other. This method 
 ### 2.2. Bridge
 Allows us to separate the Implementation Specific Abstractions and Implementation Independent Abstractions from each other and can be developed considering as the single entities. Bridge Method is always considered as one of the best methods to organize the class hierarchy.
 
+### 2.3. Composite
+Describes a group of objects that is treated the same way as a single instance of the same type of the objects. The purpose is to compose objects into tree type structures to represent the whole-partial hierarchies.
+
+### 2.4. Decorator
+Allows you to dynamically attach new behaviors to objects without changing their implementation by placing these objects inside the wrapper objects that contains the behaviors. It is not equivalent to the Inheritance because the new feature is added only to that particular object, not to the entire subclass.
+
+### 2.5. Facade
+Provides a simpler unified interface to a more complex system. The word Facade means the face of a building or particularly an outer lying interface of a complex system, consists of several sub-systems. It provides an easier way to access methods of the underlying systems by providing a single entry point.
+
+### 2.6. Proxy
+Allows you to provide the replacement for an another object. Here, we use different classes to represent the functionalities of another class. The most important part is that here we create an object having original object functionality to provide to the outer world.
+
+Proxies are also called surrogates, handles, and wrappers. They are closely related in structure, but not purpose, to Adapters and Decorators. The purpose is "Controls and manage access to the object they are protecting".
+
+### 2.7. FlyWeight
+Focus on minimizing the number of objects that are required by the program at the run-time. Basically, it creates a Flyweight object which is shared by multiple contexts. It is created in such a fashion that you can not distinguish between an object and a Flyweight Object. One important feature of flyweight objects is that they are immutable.
+
+- To implement the Flyweight method in Python, we use Dictionary that stores reference to the object which have already been created, every object is associated with a key.
+
 ## 3. Behavioral
 Are about identifying the common communication patterns between objects and realize these patterns. These patterns are concerned with algorithms and the assignment of responsibilities between objects.
 
-- Iterator
-- Observer
-- Visitor
-- Strategy
 - Chain of responsibility
+- Command
+- Iterator
+- Mediator
+- Memento
+- Observer
+- State
+- Strategy
+- Template
+- Visitor
 
 
 # References
