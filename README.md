@@ -47,11 +47,17 @@ It is a way to provide one and only one object of a particular type. It involves
 ## 2. Structural
 Are about organizing different classes and objects to form larger structures and provide new functionality while keeping these structures flexible and efficient. Mostly they use Inheritance to compose all the interfaces. It also identifies the relationships which led to the simplification of the structure.
 
+- Adapter
+- Bridge
 - Composite
 - Decorator
 - Proxy
-- Adapter
-- Bridge
+
+### 2.1. Adapter
+Help us in making the incompatible objects adaptable to each other. This method provides a different interface for a class. Using this idea, we can integrate the classes that couldn’t be integrated due to interface incompatibility.
+
+### 2.2. Bridge
+Allows us to separate the Implementation Specific Abstractions and Implementation Independent Abstractions from each other and can be developed considering as the single entities. Bridge Method is always considered as one of the best methods to organize the class hierarchy.
 
 ## 3. Behavioral
 Are about identifying the common communication patterns between objects and realize these patterns. These patterns are concerned with algorithms and the assignment of responsibilities between objects.
